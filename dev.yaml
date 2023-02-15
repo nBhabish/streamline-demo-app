@@ -28,7 +28,7 @@ variables:
   # Name of the Azure Service Connection that was created during the 
   # service connection setup in azure pipelines
   
-  rgServiceConnection: 'TBD-RD'
+  rgServiceConnection: 'TBD-RG'
   
   # Name of your Resource Group in Azure Subscription
   rgName: 'trial007'
