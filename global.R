@@ -1,0 +1,26 @@
+library(tidyverse)
+library(palmerpenguins)
+library(shiny)
+library(showtext)
+library(showtextdb)
+library(shinyWidgets)
+library(shinythemes)
+library(shinyjs)
+library(bslib)
+library(reactable)
+library(reactablefmtr)
+library(htmltools)
+library(crosstalk)
+library(extrafont)
+library(thematic)
+library(shinytest2)
+
+font_add_google("BenchNine", family = "BenchNine")
+showtext_auto()
+
+file_paths <- fs::dir_ls(c("modules", "helpers"))
+map(file_paths, function(x){source(x)})
+
+
+source("ui.R")
+source("server.R")
