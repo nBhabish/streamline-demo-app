@@ -5,7 +5,7 @@ ui <- navbarPage(
 
   title = fn_navbar(),
   theme = fn_custom_theme(),
-  windowTitle = "Bhabishya's Alamar FrameWork",
+  windowTitle = "Bhabishya's Streamline Demo App",
   ui_Overview("main"),
   ui_Details("main")
   )
