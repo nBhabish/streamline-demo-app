@@ -23,3 +23,7 @@ Now, you have a shiny app up and running.
 ## About the yaml files:
 
 -   The prod.yaml and dev.yaml files are there for Azure pipelines. Microsoft Azure team is reviewing my request for parallel jobs. Hopefully, I get it approved and have an end-to-end solution.
+
+## Link to application: 
+
+<https://bhabishya-neupane.shinyapps.io/streamline-demo-app/>
